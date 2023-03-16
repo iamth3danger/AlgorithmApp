@@ -57,7 +57,7 @@ with a loop.
 **BFS**
 
 Short for Breadth First Search. This is an unweighted pathfinding algorithm. It works by using a queue. First the alogrithm adds the start node to the key
-and then it explores its neighbors. The neighbors would be the adjacent sqaures or nodes on the graph. Then it removes the start node from the queue and explores the 
+and then it explores its neighbors. The neighbors would be the adjacent squares or nodes on the graph. Then it removes the start node from the queue and explores the 
 neighbors of the start node's neighbors and so on. The algorithm ends when it finds the end node or runs out of neighbors to explore. To make the shortest path, 
 I used an object to backtrack from the end node to the neighbor that's closest to the start node. I repeat this until it reaches the start node.
 
